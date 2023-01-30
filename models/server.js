@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const { transferRouter } = require('./routes/transfer.router');
-const { usersRouter } = require('./routes/users.router');
+const { transferRouter } = require('../routes/transfer.Router');
+const { usersRouter } = require('../routes/users.router');
 const { db } = require('../database/db');
 
 // creamos una clase
